@@ -12,6 +12,7 @@
     flex-direction: column;
 }
 .logo{
+    text-align: center;
     margin-top: 1rem;
     color: black;
     font-size:36pt;
@@ -19,10 +20,9 @@
 .navContainer{
     min-width: 1200px;
     height: auto;
-    border: 1px solid red;
-    background:transparent;
     display: flex;
     gap: 20px;
+    background: #333;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@
     height: 50px;   
     display:flex;
     justify-content: center;
-    border: 1px solid red;
+
     gap: 20px;
     overflow: hidden;
     text-align: center;
@@ -41,8 +41,10 @@
 .item{
     height: 100vh;
     padding: 10px;
-    color: #333;
-    border: 1px solid red;
+    background: red;
+    border-radius: 5px;
+    color: #fff;
+
 }
 
 .heroContainer{
@@ -55,10 +57,8 @@
     align-items: center;
     position: relative;
     background-size: cover;
+    background-image:linear-gradient(to bottom,red,black);
 }
-
- s
 img{
-   width:100%;
-   overflow: hidden;
+ 
 }

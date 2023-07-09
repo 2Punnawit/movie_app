@@ -1,13 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Application</title>
 
     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css" />
 </head>
+<script>
+    function bookmark(x) {
+        var y = x.children[0];
+        if (y.classList.contains("fa-bookmark")) {
+            y.classList.remove("fa-bookmark");
+            y.classList.add("fa-bookmark-o");
+        } else {
+            y.classList.remove("fa-bookmark-o");
+            y.classList.add("fa-bookmark");
+        }
+    }
+
+
+</script>
+
 <body>
-    
+    <div class="conatainer">
+        <nav class="navContainer">
+            <div class="logo">PUNN</div>
+            <ul class="nav">
+                <li><a href="#" class="item">หน้าแรก</a></li>
+                <li><a href="#" class="item">ภาพยนตร์</a></li>
+                <li><a href="#" class="item">โปรโมชั้น</a></li>
+                <li><a href="#" class="item">ติดต่อ</a></li>
+                <li><a href="#" class="item">รายการโปรด</a></li>
+            </ul>
+            </nav>
+            <main>
+            <div class="heroContainer">
+                <div class="image">
+                <img
+                    src="https://lh3.googleusercontent.com/_uaToe8abPptpl41UmfbmgQtGIT8Q3fd1Sd0iUskZtNYKTM-5nQSdnUKNsFXybQlcA_IKxhKFt3JB0vlpaXqW4N1XHueTqro2Q=w888"
+                    alt=""
+                />
+                </div>
+            </div>
+            </main>
+        </div>
+    <div class="container" style="padding-top:10cm;"></div>
+    <div class="row">
+
+        <div class="card">
+            <a href="#">
+
+                <div class="img1" style="background-image: url('https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg');">
+                </div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <!-- <div class="img2">
+                    
+                </div> -->
+                <div class="title">AVATAR: The Way of Water</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Rate <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views"><i class="far fa-star"></i> </div>
+                </a>
+            </a>
+        </div>
+
+
+        <div class="card">
+            <a href="#">
+                <div class="img1" style="background-image: url('https://upload.wikimedia.org/wikipedia/th/b/b6/Pirates_of_the_Caribbean_3_poster.jpg');"></div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <div class="title">Pirates of the Caribbean: At World's End</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Series <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views">20211 <i class="far fa-bookmark"></i> </div>
+                </a>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+                <div class="img1" style="background-image: url('https://upload.wikimedia.org/wikipedia/th/2/2a/Spectre_Thai_poster.jpg');"></div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <div class="title">Spectre</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Series <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views">20211 <i class="far fa-eye"></i> </div>
+                </a>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+                <div class="img1" style="background-image: url('https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_FMjpg_UX1000_.jpg');"></div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <div class="title">The Dark Knight Rises</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Series <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views">20211 <i class="far fa-eye"></i> </div>
+                </a>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        
+
+        <div class="card">
+            <a href="#">
+                <div class="img1" style="background-image: url('https://upload.wikimedia.org/wikipedia/th/8/8a/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A7%E0%B8%B2%E0%B8%A5.jpg?20120210061151');"></div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <div class="title">John Carter</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Series <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views">20211 <i class="far fa-eye"></i> </div>
+                </a>
+            </a>
+        </div>
+
+
+
+        <div class="card">
+            <a href="#">
+                <div class="img1" style="background-image: url('https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSTnVYNce0mR9weuhktA3KtkI9EJwX48KOjWhW7ZppTC3anet8khysgqAIiI6V-QRyG');"></div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <div class="title">Spider-Man 3</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Series <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views">20211 <i class="far fa-eye"></i> </div>
+                </a>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+                <div class="img1" style="background-image: url('https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRp-IpUXUM9pgungKY7BZfHs2ZkMevZmXMYH4MtnTqt5oPHsQZN3awLzpEC17mWYYWI');"></div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <div class="title">Tangled</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Series <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views">20211 <i class="far fa-eye"></i> </div>
+                </a>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+                <div class="img1" style="background-image: url('https://upload.wikimedia.org/wikipedia/th/4/4c/%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%AD%E0%B8%B1%E0%B8%A5%E0%B8%95%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%96%E0%B8%A5%E0%B9%88%E0%B8%A1%E0%B9%82%E0%B8%A5%E0%B8%81.jpg');"></div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <div class="title">Avengers: Age of Ultron</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Series <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views">20211 <i class="far fa-eye"></i> </div>
+                </a>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        
+
+        
+
+        <div class="card">
+            <a href="#">
+                <div class="img1" style="background-image: url(
+                    'https://upload.wikimedia.org/wikipedia/th/thumb/5/59/%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%94%E0%B8%9C%E0%B8%AA%E0%B8%A1%E0%B9%83%E0%B8%9A%E0%B8%9B%E0%B8%B4%E0%B8%94.jpg/220px-%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%94%E0%B8%9C%E0%B8%AA%E0%B8%A1%E0%B9%83%E0%B8%9A%E0%B8%9B%E0%B8%B4%E0%B8%94.jpg'
+                );"></div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <div class="title">Harry Potter and the Half-Blood Prince</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Series <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views">20211 <i class="far fa-eye"></i> </div>
+                </a>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="#">
+                <div class="img1" style="background-image: url('https://upload.wikimedia.org/wikipedia/th/8/8d/Batman_v_Superman_Thai_poster.jpg');"></div>
+                <h1><span class="badge badge-danger" style="z-index: 1; position: absolute; top: 1%; right: 1%;">
+                    <i class="fa-regular fa-bookmark" style="color:goldenrod;background-color: g;"></i>
+                </span></h1>
+                <div class="title">Batman v Superman: Dawn of Justice</div>
+                <!-- <div class="text">Now You can watch the first epsoide of the action series Vikings , wish you
+                    interesting watch</div> -->
+                <a href="#">
+                    <div class="catagory">Series <i class="fas fa-film"></i></div>
+                </a>
+                <a href="#">
+                    <div class="views">20211 <i class="far fa-eye"></i> </div>
+                </a>
+            </a>
+        </div>
+
+    </div>
+    </div>
+
 </body>
+
 </html>

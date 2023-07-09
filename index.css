@@ -15,17 +15,15 @@
     height: auto;
     display: flex;
     gap: 20px;
-    background-image:linear-gradient(to right,black ,rgb(105, 0, 0), rgb(182, 0, 0));
+    background-image:linear-gradient(to right,rgb(253, 251, 251) ,rgb(247, 114, 114), rgb(253, 0, 0));
     align-items: center;
     justify-content: center;
 }
 .logo{
+    font-size: 50px;
     background: linear-gradient(to right, #ff0000, #c00000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-img{
-    width: 90px;
 }
 .nav{
     min-width: 1200px;
@@ -57,10 +55,10 @@ img{
     justify-content: center;
     align-items: center;
     background-size: cover;
-    background-image: linear-gradient(to bottom,red, rgb(135, 0, 0) , black);
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255) ,#ffe3e3);
 }
 
-.image{
+/* .image{
     width: 100%;
     height: 690px;
     position: relative;
@@ -69,4 +67,4 @@ img{
 img{
     width: 100%;
     object-fit: cover;
-}
+} */

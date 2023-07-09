@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Prompt', sans-serif;
+}
+.container{
+}
+.navContainer{
+    min-width: 1200px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    background-image:linear-gradient(to right,black ,rgb(105, 0, 0), rgb(182, 0, 0));
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-size: 50px;
+    background: linear-gradient(to right, #ff0000, #c00000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav{
+    min-width: 1200px;
+    height: 60px;   
+    display:flex;
+    justify-content: flex-start  ;
+    gap: 20px;
+    align-items: center;
+}
+.item{
+    height: 100vh;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.item:hover{
+    height: 100vh;
+    padding: 10px;
+    border-bottom: 1px solid red;
+    transition:all .3s ease-in-out;
+    color: red;
+
+}
+.heroContainer{
+    min-width: 1200px;
+    min-height:400px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: linear-gradient(to bottom,red, rgb(135, 0, 0) , black);
+}
+
+.image{
+    width: 100%;
+    height: 690px;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
